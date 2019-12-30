@@ -94,6 +94,7 @@ module Data.HList.Record
     -- ** Update
     (.@.),
     HUpdateAtLabel(hUpdateAtLabel),
+    HUpdateAtLabel2(..),
     -- *** type-preserving versions
     -- | Note: these restrict the resulting record type to be the same as in
     -- input record type, which can help reduce the number of type annotations
